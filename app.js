@@ -12,12 +12,12 @@ for(i=1; i<=100; i=i+1){
         
     }
 
-    else if(i %3==0  &&  i %5==0){
+    else if(i %5==0  &&  i %3==0){
 
-        document.writeln(i + "fizz" + "Buzz");
+        document.writeln(i + "fizzBuzz" + "<br>");
     }
 else{
-    document.writeln(i);
+    document.writeln(i +"<br>");
 }
 //document.writeln(i + "Fizz");
 
